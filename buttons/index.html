@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+</head>
+<body>
+    <a href="https://www.google.com">
+        <button
+                onclick="doSomething()"
+                style="background-color:rgb(23,44,234);
+                color:white;
+                border-radius:5px">Click Me!</button>
+    </a>
+    <p id="test">Hello!</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Good Bye!";
+        }
+    </script>
+
+</body>
+</html>
